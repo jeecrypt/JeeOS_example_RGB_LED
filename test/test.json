@@ -1,0 +1,47 @@
+{
+    "id": "4A3FDA46265C",
+    "ui": [
+        {
+            "id": "volume",
+            "type": 0,
+            "label":"\d0\93\d1\80\d0\be\d0\bc\d0\ba\d0\be\d1\81\d1\82\d1\8c",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 10
+        },
+        {
+            "id": "brightness",
+            "type": 1,
+            "label":"\d0\af\d1\80\d0\ba\d0\be\d1\81\d1\82\d1\8c",
+            "min": 0.5,
+            "max": 100,
+            "step": 1,
+            "value": 49
+        },
+        {
+            "id": "chammel",
+            "type": 2,
+            "label":"\d0\9a\d0\b0\d0\bd\d0\b0\d0\bb",
+            "value": 3,
+            "items": [
+                {
+                    "n":"\d0\a6\d0\b2\d0\b5\d1\82",
+                    "v": 0
+                },
+                {
+                    "n": "Rainbow",
+                    "v": 1
+                },
+                {
+                    "n": "Noise",
+                    "v": 2
+                },
+                {
+                    "n": "Random",
+                    "v": 3
+                }
+            ]
+        }
+    ]
+}
